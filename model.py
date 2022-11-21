@@ -16,7 +16,7 @@ seed = 10599
 algorithm_globals.random_seed = seed
 
 
-data = '../input/d/saiharvin/whateverv11/ionosphere 4.csv'
+data = 'dataset/ionosphere 4.csv'
 df = pd.read_csv(data)
 
 col_names = df.columns
